@@ -1,0 +1,2 @@
+.void-reason { margin-top: 12px; color: var(--red); font-weight: 600; }
+.invoice-doc .doc-table td:not(:first-child), .invoice-doc .doc-table th:not(:first-child) { text-align: right; white-space: nowrap; }

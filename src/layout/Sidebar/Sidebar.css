@@ -1,0 +1,15 @@
+.sidebar { width: 252px; background: linear-gradient(180deg, var(--navy) 0%, var(--navy-2) 100%); color: #cbd5e1; padding: 20px 14px; position: fixed; inset: 0 auto 0 0; display: flex; flex-direction: column; gap: 6px; z-index: 30; }
+.brand { display: flex; align-items: center; gap: 12px; padding: 4px 8px 20px; color: #fff; }
+.brand b { display: block; font-size: 16px; letter-spacing: .04em; }
+.brand small { color: #7dd3c8; letter-spacing: .18em; font-size: 10px; font-weight: 700; }
+.sidebar nav { display: flex; flex-direction: column; gap: 4px; flex: 1; overflow-y: auto; }
+.nav-item { display: flex; align-items: center; gap: 12px; width: 100%; border: 0; background: transparent; color: inherit; padding: 11px 14px; border-radius: 12px; font: inherit; font-weight: 600; cursor: pointer; text-align: left; transition: .2s; }
+.nav-item svg { flex: none; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.nav-item:hover { background: rgba(255, 255, 255, .07); color: #fff; }
+.nav-item.active { background: var(--grad); color: #fff; box-shadow: 0 10px 20px -10px rgba(15, 157, 138, .9); }
+.nav-item.wa { background: rgba(37, 211, 102, .12); color: #86efac; margin-top: 8px; }
+
+@media (max-width: 960px) {
+  .sidebar { transform: translateX(-100%); transition: .25s; }
+  .sidebar.open { transform: none; }
+}

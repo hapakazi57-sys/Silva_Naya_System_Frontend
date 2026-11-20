@@ -1,0 +1,2 @@
+.logs-page td { font-size: 13px; }
+.logs-page td:last-child { color: #475569; max-width: 420px; word-break: break-word; }

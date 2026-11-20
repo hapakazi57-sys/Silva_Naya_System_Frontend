@@ -1,0 +1,2 @@
+.shipping-rate-form { row-gap: 16px; }
+.shipping-rate-form input[type=number] { font-variant-numeric: tabular-nums; }

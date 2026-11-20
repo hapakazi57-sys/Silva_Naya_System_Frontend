@@ -1,0 +1,9 @@
+.ship-msg { display: grid; gap: 10px; }
+.ship-msg-to { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; background: #f0fdfa; border: 1px solid #ccfbf1; border-radius: 12px; padding: 10px 14px; }
+.ship-msg-to small { color: var(--muted); }
+.ship-msg-to span { color: var(--muted); font-size: 13px; margin-left: auto; }
+.ship-msg-label { font-size: 12px; font-weight: 700; color: #475569; }
+.ship-msg textarea { resize: vertical; line-height: 1.5; }
+.ship-msg-foot { display: flex; justify-content: flex-end; gap: 10px; }
+.ship-msg-foot a.btn { text-decoration: none; }
+.ship-msg-foot a.btn svg { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }

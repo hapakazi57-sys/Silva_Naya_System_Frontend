@@ -1,0 +1,2 @@
+.customer-select { cursor: pointer; font-weight: 600; text-overflow: ellipsis; }
+.customer-select option { font-weight: 500; }

@@ -1,0 +1,10 @@
+.tabs { display: flex; background: #fff; border: 1px solid var(--line); border-radius: 999px; padding: 4px; }
+.tabs button { border: 0; background: transparent; padding: 8px 16px; border-radius: 999px; font: inherit; font-weight: 700; cursor: pointer; color: var(--muted); }
+.tabs button.on { background: var(--navy); color: #fff; }
+
+/* Sehemu za bei: Normal Goods na HK */
+.rate-groups { display: grid; gap: 22px; }
+.rate-group-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 10px; }
+.rate-group-head h3 { font-size: 16px; color: var(--navy); display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.rate-group-head h3 span { font-size: 12px; font-weight: 700; padding: 4px 12px; border-radius: 999px; background: #ccfbf1; color: var(--teal-d); }
+.rate-group.hk .rate-group-head h3 span { background: #fef3c7; color: #b45309; }

@@ -1,0 +1,6 @@
+.gate { min-height: 55vh; display: grid; place-items: center; }
+.gate-card { width: 100%; max-width: 380px; background: #fff; border: 1px solid var(--line); border-radius: 22px; padding: 28px; text-align: center; display: grid; gap: 12px; box-shadow: 0 20px 40px -24px rgba(15, 23, 42, .4); }
+.gate-icon { width: 60px; height: 60px; margin: 0 auto; border-radius: 18px; display: grid; place-items: center; background: #f0fdfa; color: var(--teal-d); }
+.gate-card h3 { color: var(--navy); }
+.gate-card p { margin: 0; font-size: 13px; color: var(--muted); }
+.gate-err { color: var(--red); font-weight: 600; }

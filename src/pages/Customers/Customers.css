@@ -1,0 +1,19 @@
+.customers-page .cust-no { color: var(--navy); letter-spacing: .02em; }
+.customers-page .btn-wa { margin: 0; }
+
+/* Kufuli la menyu ya Wateja */
+.cust-lock { min-height: 60vh; display: grid; place-items: center; }
+.cust-lock-card { width: 100%; max-width: 380px; background: #fff; border: 1px solid var(--line); border-radius: 22px; padding: 28px; text-align: center; display: grid; gap: 12px; box-shadow: 0 20px 40px -24px rgba(15, 23, 42, .4); }
+.cust-lock-icon { width: 60px; height: 60px; margin: 0 auto; border-radius: 18px; display: grid; place-items: center; background: #f0fdfa; }
+.cust-lock-icon svg { fill: none; stroke: var(--teal-d); stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.cust-lock-card h3 { color: var(--navy); }
+.cust-lock-card p { margin: 0; font-size: 13px; color: var(--muted); }
+.cust-lock-err { color: var(--red); font-weight: 600; }
+.btn-icon { display: inline-flex; align-items: center; gap: 6px; }
+
+.cust-search { margin-bottom: 14px; }
+.search-wrap { position: relative; display: inline-flex; align-items: center; }
+.search-wrap > svg { position: absolute; left: 10px; pointer-events: none; opacity: .6; }
+.search-wrap .search { padding-left: 32px; }
+
+.cust-lock-icon svg { stroke: var(--teal-d); }

@@ -1,0 +1,2 @@
+.exchange-rate-form { row-gap: 16px; }
+.exchange-rate-form input[type=number] { font-variant-numeric: tabular-nums; }

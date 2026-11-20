@@ -1,0 +1,6 @@
+.users-page td:nth-child(2) { color: #475569; }
+.btn-icon {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}

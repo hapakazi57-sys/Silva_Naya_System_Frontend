@@ -1,0 +1,76 @@
+/* Mipangilio ya Kampuni - viambishi vya st- */
+.st-tabs { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 16px; background: #fff; border: 1px solid var(--line); border-radius: 999px; padding: 5px; width: fit-content; max-width: 100%; }
+.st-tabs button { border: 0; background: transparent; padding: 8px 16px; border-radius: 999px; font: inherit; font-weight: 700; font-size: 13px; color: var(--muted); cursor: pointer; transition: .15s; }
+.st-tabs button:hover { color: var(--text); }
+.st-tabs button.on { background: var(--grad); color: #fff; }
+
+.st-card { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 22px; box-shadow: 0 6px 18px -12px rgba(15, 23, 42, .25); }
+.st-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; }
+.st-grid.four { grid-template-columns: repeat(2, 1fr); }
+.st-grid .full { grid-column: 1 / -1; }
+.st-row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin-top: 8px; }
+.st-hint { margin: 12px 0 0; font-size: 12.5px; color: var(--muted); }
+.st-sub { display: block; margin: 20px 0 10px; color: var(--navy); }
+.st-check { display: flex; align-items: center; gap: 8px; font-weight: 600; font-size: 13.5px; align-self: end; padding-bottom: 10px; cursor: pointer; }
+
+.st-logo { display: flex; gap: 18px; align-items: center; margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px dashed var(--line); }
+.st-logo p { margin: 3px 0 0; font-size: 12.5px; color: var(--muted); }
+.st-logo-box { width: 88px; height: 88px; border-radius: 18px; border: 1.5px dashed var(--line); display: grid; place-items: center; background: #f8fafc; overflow: hidden; flex: none; }
+.st-logo-box img { width: 100%; height: 100%; object-fit: contain; }
+.st-logo-box span { font-weight: 800; font-size: 26px; color: var(--teal-d); }
+
+.st-clock { margin-top: 14px; padding: 12px 16px; border-radius: 12px; background: #f0fdfa; border: 1px solid #ccfbf1; display: flex; flex-direction: column; gap: 2px; }
+.st-clock small { color: var(--muted); font-size: 11.5px; }
+.st-clock b { color: var(--teal-d); font-size: 15px; font-variant-numeric: tabular-nums; }
+
+.st-chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 4px; }
+.st-chip { display: inline-flex; align-items: center; gap: 6px; padding: 6px 12px; border-radius: 999px; background: #f1f5f9; font-weight: 700; font-size: 13px; }
+.st-chip.base { background: #ccfbf1; color: var(--teal-d); }
+.st-chip button { border: 0; background: transparent; cursor: pointer; font-size: 16px; line-height: 1; color: var(--muted); padding: 0; }
+.st-chip button:hover { color: var(--red); }
+.st-cur-in { width: 110px; text-transform: uppercase; }
+
+.st-split { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 18px; align-items: start; }
+.st-prev-label { display: block; margin: 0 0 8px; font-weight: 700; color: var(--muted); }
+.st-doc { background: #fff; border: 1px solid var(--line); border-radius: 14px; padding: 18px; box-shadow: 0 10px 24px -16px rgba(15, 23, 42, .35); }
+.st-doc-head { display: flex; justify-content: space-between; gap: 12px; border-bottom: 3px solid var(--teal); padding-bottom: 12px; }
+.st-doc-brand { display: flex; gap: 10px; align-items: center; min-width: 0; }
+.st-doc-brand img, .st-doc-sn { width: 40px; height: 40px; border-radius: 9px; object-fit: contain; flex: none; }
+.st-doc-sn { display: grid; place-items: center; background: var(--grad); color: #fff; font-weight: 800; font-size: 14px; }
+.st-doc-brand b { display: block; color: var(--navy); font-size: 14px; }
+.st-doc-brand small { display: block; color: var(--muted); font-size: 10.5px; }
+.st-doc-title { text-align: right; }
+.st-doc-title b { display: block; color: var(--teal-d); letter-spacing: .08em; font-size: 18px; }
+.st-doc-title small { color: var(--muted); font-size: 11px; }
+.st-doc-lines { display: grid; gap: 8px; margin: 16px 0; }
+.st-doc-lines i { display: block; height: 9px; border-radius: 6px; background: #eef2f7; }
+.st-doc-lines i.short { width: 55%; }
+.st-doc-terms { font-size: 11px; color: var(--muted); border-top: 1px dashed var(--line); padding-top: 8px; white-space: pre-line; }
+.st-doc-terms b { display: block; }
+.st-doc-sign { display: flex; gap: 30px; margin-top: 26px; font-size: 11px; color: var(--muted); }
+.st-doc-sign span { flex: 1; text-align: center; border-top: 1px solid var(--muted); padding-top: 4px; }
+.st-doc-foot { text-align: center; color: var(--muted); font-size: 11px; margin-top: 16px; }
+
+.st-examples { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
+.st-examples div { background: #f8fafc; border: 1px solid var(--line); border-radius: 12px; padding: 10px 12px; }
+.st-examples small { display: block; color: var(--muted); font-size: 11.5px; }
+.st-examples b { color: var(--navy); font-variant-numeric: tabular-nums; font-size: 13.5px; }
+
+.st-save { position: sticky; bottom: 14px; margin-top: 18px; display: flex; align-items: center; justify-content: flex-end; gap: 10px; background: var(--navy); color: #fff; padding: 10px 14px; border-radius: 999px; box-shadow: 0 16px 30px -14px rgba(0, 0, 0, .5); transform: translateY(20px); opacity: 0; pointer-events: none; transition: .2s; }
+.st-save.show { transform: none; opacity: 1; pointer-events: auto; }
+.st-save span { margin-right: auto; font-size: 13px; padding-left: 6px; }
+
+@media (max-width: 960px) {
+  .st-split { grid-template-columns: 1fr; }
+  .st-examples { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 560px) {
+  .st-grid, .st-grid.four { grid-template-columns: 1fr; }
+  .st-logo { flex-direction: column; align-items: flex-start; }
+  .st-tabs { border-radius: 16px; }
+}
+.sec-list { display: grid; gap: 12px; }
+.sec-row { display: grid; grid-template-columns: 1.2fr 1.5fr auto auto; gap: 10px; align-items: center; padding: 12px 14px; border: 1px solid var(--line); border-radius: 14px; }
+.sec-name { display: grid; gap: 2px; }
+.sec-name small { color: var(--muted); }
+@media (max-width: 720px) { .sec-row { grid-template-columns: 1fr; } }

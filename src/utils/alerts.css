@@ -1,0 +1,39 @@
+/* SweetAlert2 yenye border radius na mvuto */
+.swal2-container { font-family: 'Plus Jakarta Sans', system-ui, sans-serif; }
+
+.sn-popup.swal2-popup {
+  border-radius: 28px;
+  padding: 28px 24px 24px;
+  box-shadow: 0 30px 80px -20px rgba(11, 29, 48, .55);
+  border: 1px solid rgba(15, 157, 138, .18);
+  background: #fff;
+}
+.sn-popup .sn-title, .sn-title.swal2-title { font-size: 21px; font-weight: 800; color: var(--navy); }
+.sn-swal-html.swal2-html-container { color: #475569; font-size: 14px; line-height: 1.55; }
+.sn-actions.swal2-actions { gap: 10px; margin-top: 18px; }
+
+.sn-btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+  border: 0; border-radius: 999px; padding: 11px 26px; font: inherit; font-size: 14px; font-weight: 700;
+  cursor: pointer; transition: .18s; white-space: nowrap;
+}
+.sn-btn:hover { transform: translateY(-1px); filter: brightness(1.05); }
+.sn-btn-primary { background: var(--grad); color: #fff; box-shadow: 0 10px 20px -10px rgba(15, 157, 138, .9); }
+.sn-btn-ghost { background: #fff; color: var(--text); border: 1.5px solid var(--line); }
+.sn-btn-danger { background: #fee2e2; color: var(--red); }
+
+.sn-swal-input.swal2-input, .sn-swal-input.swal2-textarea, .sn-swal-input.swal2-select, .swal2-input.sn-swal-input {
+  border-radius: 16px; border: 1.5px solid var(--line); box-shadow: none; font-size: 14px;
+}
+.sn-swal-input:focus { border-color: var(--teal) !important; box-shadow: 0 0 0 4px rgba(15, 157, 138, .15) !important; }
+.sn-swal-label { color: #475569; font-weight: 600; font-size: 13px; }
+
+.swal2-icon { border-width: 3px; }
+.swal2-validation-message { border-radius: 14px; }
+.swal2-timer-progress-bar { background: var(--teal) !important; border-radius: 999px; }
+
+.sn-popup.sn-toast.swal2-popup {
+  border-radius: 18px; padding: 12px 18px; border-left: 5px solid var(--teal);
+  box-shadow: 0 16px 40px -14px rgba(11, 29, 48, .45);
+}
+.sn-toast-title.swal2-title { font-size: 14px; font-weight: 700; }

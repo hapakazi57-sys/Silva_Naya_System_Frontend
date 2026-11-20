@@ -1,0 +1,2 @@
+.user-form { row-gap: 16px; }
+.user-form input:disabled, .user-form select:disabled { background: #f1f5f9; color: var(--muted); cursor: not-allowed; }

@@ -1,0 +1,27 @@
+.shipments-page select.search { cursor: pointer; font-weight: 600; }
+.shipments-page td small.sub { margin-top: 2px; }
+.search-wrap {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+.search-wrap > svg {
+  position: absolute;
+  left: 10px;
+  pointer-events: none;
+  opacity: 0.6;
+}
+.search-wrap .search {
+  padding-left: 32px;
+}
+
+.btn-icon {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.btn-icon { display: inline-flex; align-items: center; gap: 6px; }
+.list-toolbar { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 14px; }
+.search-wrap { position: relative; display: inline-flex; align-items: center; }
+.search-wrap > svg { position: absolute; left: 10px; pointer-events: none; opacity: .6; }
+.search-wrap .search { padding-left: 32px; }

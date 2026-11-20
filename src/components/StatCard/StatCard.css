@@ -1,0 +1,13 @@
+.stat { background: var(--card); border-radius: var(--radius); padding: 18px; display: flex; gap: 14px; align-items: center; box-shadow: var(--shadow); border: 1px solid var(--line); transition: .2s; }
+.stat:hover { transform: translateY(-3px); }
+.stat-ic { width: 50px; height: 50px; border-radius: 16px; display: grid; place-items: center; font-size: 22px; background: #e0f2fe; }
+.stat span { display: block; color: var(--muted); font-size: 12px; font-weight: 600; }
+.stat b { font-size: 20px; font-weight: 800; }
+.t-blue .stat-ic { background: #dbeafe; }
+.t-teal .stat-ic { background: #ccfbf1; }
+.t-indigo .stat-ic { background: #e0e7ff; }
+.t-amber .stat-ic { background: #fef3c7; }
+.t-orange .stat-ic { background: #ffedd5; }
+.t-green .stat-ic { background: #dcfce7; }
+.t-red .stat-ic { background: #fee2e2; }
+.t-gray .stat-ic { background: #f1f5f9; }

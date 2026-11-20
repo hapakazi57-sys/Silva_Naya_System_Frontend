@@ -1,0 +1,7 @@
+.payments-page td:nth-child(4), .payments-page td:nth-child(5) { font-variant-numeric: tabular-nums; }
+.btn-icon { display: inline-flex; align-items: center; gap: 6px; }
+.list-search { margin-bottom: 14px; }
+.search-wrap { position: relative; display: inline-flex; align-items: center; }
+.search-wrap > svg { position: absolute; left: 10px; pointer-events: none; opacity: .6; }
+.search-wrap .search { padding-left: 32px; }
+

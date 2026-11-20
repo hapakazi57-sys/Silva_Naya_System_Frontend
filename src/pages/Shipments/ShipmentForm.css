@@ -1,0 +1,16 @@
+.calc-box { background: #f0fdfa; border: 1.5px dashed #5eead4; border-radius: 14px; padding: 12px 14px; display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+.calc-res { display: flex; gap: 16px; flex-wrap: wrap; font-size: 13px; }
+.mode-select {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.mode-select select {
+  flex: 1;
+}
+
+.btn-icon {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}

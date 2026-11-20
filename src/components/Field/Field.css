@@ -1,0 +1,2 @@
+.field { display: flex; flex-direction: column; gap: 6px; }
+.field > span { font-size: 12px; font-weight: 700; color: #475569; }
