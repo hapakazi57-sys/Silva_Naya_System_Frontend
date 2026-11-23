@@ -15,19 +15,19 @@ function template(kind, s, company) {
   const name = s.customer?.name || 'customer';
   const ref = `${s.cargoNo}${s.description ? ` (${s.description})` : ''}`;
   const track = s.trackingNo ? `\nTracking number: ${s.trackingNo}` : '';
-  const sign = `\n\nThank you,\n${company}`;
+  const sign = `\n\nThank you for choosing,\n${company}`;
   if (kind === 'IN_TRANSIT') {
-    const eta = s.expectedArrival ? `\nExpected arrival: ${s.expectedArrival}` : '';
-    return `Hello ${name},\n\nYour cargo ${ref} is now in transit and on its way to Tanzania.${track}${eta}\n\nWe will let you know as soon as it arrives.${sign}`;
+    const eta = s.expectedArrival ? `\nTarehe inayotarajiwa kuwasili: ${s.expectedArrival}` : '';
+    return `Habari ${name},\n\nMzigo wako ${ref} kwa sasa unaanza safari kuelekea Tanzania.${track}${eta}\n\nTutatakujuilisha mara tu mzigo wako utakapofika.${sign}`;
   }
   if (kind === 'ARRIVED') {
-    return `Hello ${name},\n\nGood news! Your cargo ${ref} has arrived in Tanzania and is ready for pick-up.${track}\n\nPlease contact us to arrange collection.${sign}`;
+    return `Habari ${name},\n\nHabari njema! Mzigo wako ${ref} umewasili Tanzania na sasa upo tayari kuchukuliwa.${track}\n\nTafadhali fika offisini kwetu.${sign}`;
   }
   if (kind === 'RECEIVED_ORIGIN') {
   const origin = s.origin ? ` in ${s.origin}` : '';
-  return `Hello ${name},\n\nYour cargo ${ref} has been received at our warehouse${origin}.${track}\n\nWe will let you know when it is on its way to Tanzania.${sign}`;
+  return `Habari ${name},\n\nMzigo wako ${ref} umpokelewa katika${origin}.${track}\n\nTutatakujuilisha wakati unapotaka kusafiri kwenda Tanzania .${sign}`;
 }
-  return `Hello ${name},\n\nYour cargo ${ref} has been received at ${company}.${track}\n\nWe will keep you updated on its progress.${sign}`;
+  return `Habari ${name},\n\nMzigo wako${ref} umepokelewa katika ${company}.${track}\n\nTutakujuilisha kwa kila hatua za safari ya mzigo wako.${sign}`;
 }
 
 export default function ShipmentMessage({ s, kind, onClose }) {
